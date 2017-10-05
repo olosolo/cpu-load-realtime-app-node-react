@@ -1,0 +1,31 @@
+{
+  "name": "cpu-load-realtime-app-node-react",
+  "version": "0.0.1-beta",
+  "description": "CPU load realtime application based on nodeJS, ReactJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "rm -rf ./build && NODE_ENV=production node index.js && node build/server.js",
+    "dev": "rm -rf ./build && NODE_ENV=development node index.js && node build/server.js"
+  },
+  "author": {
+    "name": "Oleg Solop",
+    "email": "oleg.solop@gmail.com",
+    "url": "http://oleg.solop.me"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.16.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.16.1",
+    "html-webpack-plugin": "^2.30.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "recharts": "^1.0.0-apha.5",
+    "webpack": "^3.6.0",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
