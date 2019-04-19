@@ -1,6 +1,6 @@
 {
   "name": "cpu-load-realtime-app-node-react",
-  "version": "0.0.1-beta",
+  "version": "0.0.2-beta",
   "description": "CPU load realtime application based on nodeJS, ReactJS.",
   "main": "index.js",
   "scripts": {
