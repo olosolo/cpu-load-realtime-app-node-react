@@ -2,5 +2,5 @@ FROM mhart/alpine-node:6.2.1
 WORKDIR /src
 ADD . .
 RUN npm install
-EXPOSE 9000
+EXPOSE 80
 CMD ["npm", "run", "prod"]
